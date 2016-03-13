@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 
 import date100316.HomeworkKrokhmalyuk;
+import edu.ita.lv179jv.homeworkTerlyha.HomeworkTerlyha;
 
 public class Main {
 
@@ -39,6 +40,12 @@ public class Main {
             case "7":
 				HomeworkKrokhmalyuk.function178D();
 				break;
+				
+            case "8":
+            	HomeworkKrokhmalyuk.function178G();
+            	break;
+            case "9":
+            	HomeworkKrokhmalyuk.function555();
 
 			default:
 				break;
