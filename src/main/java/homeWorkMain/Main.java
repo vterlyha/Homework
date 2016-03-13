@@ -2,7 +2,9 @@ package homeWorkMain;
 
 import java.util.Scanner;
 
+
 import edu.ita.lv179jv.homeworkTerlyha.HomeworkTerlyha;
+import date100316.HomeworkKrokhmalyuk;
 
 public class Main {
 
@@ -16,10 +18,12 @@ public class Main {
 			Scanner sc = new Scanner(System.in);
 			String choise = sc.nextLine();
 			switch (choise) {
+			case "0":
+				System.exit(0);
 			case "1":
-				
+		
 				break;
-				
+
             case "10":
                 HomeworkTerlyha.solveExcercise108();
                 break;
@@ -31,6 +35,10 @@ public class Main {
             case "12":
                 HomeworkTerlyha.solveExcercise561();
                 break;
+
+            case "7":
+				HomeworkKrokhmalyuk.function178D();
+				break;
 
 			default:
 				break;
@@ -52,12 +60,12 @@ public class Main {
 		System.out.println("7 for Exrecise No. 178.1");
 		System.out.println("8 for Exrecise No. 178.2");
 		System.out.println("9 for Exrecise No. 555");
-		System.out.println("10 for Exrecise No. 108");
-		System.out.println("11 for Exrecise No. 325");
-		System.out.println("12 for Exrecise No. 561");
-		System.out.println("13 for Exrecise No. 323");
-		System.out.println("14 for Exrecise No. 323");
-		System.out.println("15 for Exrecise No. 323");
+		System.out.println("10 for Exrecise No. 323");
+		System.out.println("11 for Exrecise No. 323");
+		System.out.println("12 for Exrecise No. 323");
+		System.out.println("13 for Exrecise No. 81a");
+		System.out.println("14 for Exrecise No. 81b");
+		System.out.println("15 for Exrecise No. 330");
 	}
 }
 

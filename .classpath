@@ -22,6 +22,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="D:/Workspace/homeworkTerlyha5/target/homeworkTerlyha-0.0.1-SNAPSHOT.jar"/>
+=======
+	<classpathentry kind="lib" path="D:/Java Eclipse/HomeworkKrokhmalyuk/target/homeWorkKrokhmalyuk-0.0.1-SNAPSHOT.jar"/>
+>>>>>>> f6d097a62d3130fd8b634ba43405d5e613976be7
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
