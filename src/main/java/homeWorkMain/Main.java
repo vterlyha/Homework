@@ -19,6 +19,8 @@ public class Main {
 			case "1":
 				
 				break;
+			case "7":
+				
 			
 
 			default:
