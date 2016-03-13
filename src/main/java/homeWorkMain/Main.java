@@ -3,7 +3,7 @@ package homeWorkMain;
 import java.util.Scanner;
 
 
-import edu.ita.lv179jv.homeworkTerlyha.HomeworkTerlyha;
+
 import date100316.HomeworkKrokhmalyuk;
 
 public class Main {
