@@ -28,6 +28,7 @@ public class Main {
 	
 	private static void menu(){
 		System.out.println("Choose the Exercise You want to solve");
+		System.out.println("0 for exit")
 		System.out.println("1 for Exercise No. 182");
 		System.out.println("2 for Exrecise No. 323");
 		System.out.println("3 for Exrecise No. 560");
