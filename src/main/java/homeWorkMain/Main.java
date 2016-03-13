@@ -2,6 +2,8 @@ package homeWorkMain;
 
 import java.util.Scanner;
 
+
+import edu.ita.lv179jv.homeworkTerlyha.HomeworkTerlyha;
 import date100316.HomeworkKrokhmalyuk;
 
 public class Main {
@@ -19,12 +21,24 @@ public class Main {
 			case "0":
 				System.exit(0);
 			case "1":
-				
+		
 				break;
-			case "7":
+
+            case "10":
+                HomeworkTerlyha.solveExcercise108();
+                break;
+            
+            case "11":
+                HomeworkTerlyha.solveExcercise325();
+                break;
+            
+            case "12":
+                HomeworkTerlyha.solveExcercise561();
+                break;
+
+            case "7":
 				HomeworkKrokhmalyuk.function178D();
 				break;
-			
 
 			default:
 				break;
