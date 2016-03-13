@@ -1,16 +1,11 @@
-package homeWorkMain;
+package main.java.homeWorkMain;
 
 import java.util.Scanner;
-
-
 
 import date100316.HomeworkKrokhmalyuk;
 import edu.ita.lv179jv.homeworkTerlyha.HomeworkTerlyha;
 
 public class Main {
-
-	
-	
 	public static void main(String[] args) {
 		System.out.println("Hello");
 		while(true){
@@ -21,10 +16,8 @@ public class Main {
 			switch (choise) {
 			case "0":
 				System.exit(0);
-			case "1":
-		
+			case "1":		
 				break;
-
             case "10":
                 HomeworkTerlyha.solveExcercise108();
                 break;
@@ -75,5 +68,3 @@ public class Main {
 		System.out.println("15 for Exrecise No. 330");
 	}
 }
-
-
