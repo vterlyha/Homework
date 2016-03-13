@@ -22,5 +22,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/HomeWorkBondar.jar"/>
 	<classpathentry kind="lib" path="lib/homeWorkKrokhmalyuk-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/Users/andyislegend/Homework/lib/homeWorkPetyrk-0.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
