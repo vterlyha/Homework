@@ -49,9 +49,9 @@ public class Main {
 		System.out.println("10 for Exrecise No. 323");
 		System.out.println("11 for Exrecise No. 323");
 		System.out.println("12 for Exrecise No. 323");
-		System.out.println("13 for Exrecise No. 323");
-		System.out.println("14 for Exrecise No. 323");
-		System.out.println("15 for Exrecise No. 323");
+		System.out.println("13 for Exrecise No. 81a");
+		System.out.println("14 for Exrecise No. 81b");
+		System.out.println("15 for Exrecise No. 330");
 	}
 }
 
