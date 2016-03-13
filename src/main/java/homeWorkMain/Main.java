@@ -7,7 +7,7 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		
+		System.out.println("Hello");
 		while(true){
 			menu();
 			@SuppressWarnings("resource")
@@ -35,9 +35,9 @@ public class Main {
 		System.out.println("4 for Exrecise No. 323");
 		System.out.println("5 for Exrecise No. 323");
 		System.out.println("6 for Exrecise No. 323");
-		System.out.println("7 for Exrecise No. 323");
-		System.out.println("8 for Exrecise No. 323");
-		System.out.println("9 for Exrecise No. 323");
+		System.out.println("7 for Exrecise No. 178.1");
+		System.out.println("8 for Exrecise No. 178.2");
+		System.out.println("9 for Exrecise No. 555");
 		System.out.println("10 for Exrecise No. 323");
 		System.out.println("11 for Exrecise No. 323");
 		System.out.println("12 for Exrecise No. 323");
