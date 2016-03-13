@@ -2,6 +2,8 @@ package homeWorkMain;
 
 import java.util.Scanner;
 
+import date100316.HomeworkKrokhmalyuk;
+
 public class Main {
 
 	
@@ -20,7 +22,8 @@ public class Main {
 				
 				break;
 			case "7":
-				
+				HomeworkKrokhmalyuk.function178D();
+				break;
 			
 
 			default:
