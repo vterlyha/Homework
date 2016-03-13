@@ -11,10 +11,7 @@ import ua.dorab.Task559;
 import ua.dorab.Task87;
 
 public class Main {
-<<<<<<< HEAD
-=======
 
->>>>>>> ace7e1ab8b95ba34057f41f8002c774a360c13e8
 	public static void main(String[] args) {
 
 		System.out.println("Hello");
@@ -26,7 +23,7 @@ public class Main {
 			switch (choise) {
 			case "0":
 				System.exit(0);
-<<<<<<< HEAD
+
 			case "1":		
 				break;
             case "10":
@@ -42,7 +39,7 @@ public class Main {
                 break;
 
             case "7":
-=======
+
 			case "1":
 				System.out.println("In the array of natural numbers, with legth N, please find"
 						+ "a natural number that is dividet to 5 and " + "not didvided to 7 at the same time");
@@ -80,7 +77,7 @@ public class Main {
 				break;
 
 			case "7":
->>>>>>> ace7e1ab8b95ba34057f41f8002c774a360c13e8
+
 				HomeworkKrokhmalyuk.function178D();
 				System.out.println("----------------------------------------------------------");
 				break;
@@ -158,8 +155,5 @@ public class Main {
 		System.out.println("17 for Exrecise No. 323(Bondar)");
 		System.out.println("18 for Exrecise No. 559");
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> ace7e1ab8b95ba34057f41f8002c774a360c13e8
 }
