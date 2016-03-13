@@ -13,19 +13,20 @@ import ua.dorab.Task87;
 
 public class Main {
 
-	public static void main(String[] args) {
-		System.out.println("Hello");
-		while(true){
-			menu();
-			@SuppressWarnings("resource")
-			Scanner sc = new Scanner(System.in);
-			String choise = sc.nextLine();
-			switch (choise) {
-			case "0":
-				System.exit(0);
-			case "1":
-		
-				break;
+
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        while(true){
+            menu();
+            @SuppressWarnings("resource")
+            Scanner sc = new Scanner(System.in);
+            String choise = sc.nextLine();
+            switch (choise) {
+            case "0":
+                System.exit(0);
+            case "1":
+
+                break;
 
             case "10":
                 HomeworkTerlyha.solveExcercise108();
@@ -40,27 +41,27 @@ public class Main {
                 break;
 
             case "7":
-				HomeworkKrokhmalyuk.function178D();
-				break;
-				
+                HomeworkKrokhmalyuk.function178D();
+                break;
+
             case "8":
-            	HomeworkKrokhmalyuk.function178G();
-            	break;
+                HomeworkKrokhmalyuk.function178G();
+                break;
             case "9":
-            	HomeworkKrokhmalyuk.function555();
-            	break;
+                HomeworkKrokhmalyuk.function555();
+                break;
             
             case "13":
-            	HomeworkVarvariuk.solveExercise86a();
-            	break;
-            	
+                HomeworkVarvariuk.solveExercise86a();
+                break;
+
             case "14":
-            	HomeworkVarvariuk.solveExercise86b();
-            	break;
-            	
+                HomeworkVarvariuk.solveExercise86b();
+                break;
+
             case "15":
-            	HomeworkVarvariuk.solveExercise330();
-            	break;
+                HomeworkVarvariuk.solveExercise330();
+                break;
 
             case "16":
                 Task87.main(args);
@@ -74,36 +75,35 @@ public class Main {
                Task559.main(args);
                break;
 
-			default:
-				break;
-			}
-			
-		}
-		
-	}
-	
-	private static void menu(){
-		System.out.println("Choose the Exercise You want to solve");
-		System.out.println("0 for exit");
-		System.out.println("1 for Exercise No. 182");
-		System.out.println("2 for Exrecise No. 323");
-		System.out.println("3 for Exrecise No. 560");
-		System.out.println("4 for Exrecise No. 323");
-		System.out.println("5 for Exrecise No. 323");
-		System.out.println("6 for Exrecise No. 323");
-		System.out.println("7 for Exrecise No. 178.1");
-		System.out.println("8 for Exrecise No. 178.2");
-		System.out.println("9 for Exrecise No. 555");
-		System.out.println("10 for Exrecise No. 323");
-		System.out.println("11 for Exrecise No. 323");
-		System.out.println("12 for Exrecise No. 323");
-		System.out.println("13 for Exrecise No. 81a");
-		System.out.println("14 for Exrecise No. 81b");
-		System.out.println("15 for Exrecise No. 330");
+            default:  break;
+            }
+
+        }
+
+    }
+
+    private static void menu(){
+        System.out.println("Choose the Exercise You want to solve");
+        System.out.println("0 for exit");
+        System.out.println("1 for Exercise No. 182");
+        System.out.println("2 for Exrecise No. 323");
+        System.out.println("3 for Exrecise No. 560");
+        System.out.println("4 for Exrecise No. 323");
+        System.out.println("5 for Exrecise No. 323");
+        System.out.println("6 for Exrecise No. 323");
+        System.out.println("7 for Exrecise No. 178.1");
+        System.out.println("8 for Exrecise No. 178.2");
+        System.out.println("9 for Exrecise No. 555");
+        System.out.println("10 for Exrecise No. 323");
+        System.out.println("11 for Exrecise No. 323");
+        System.out.println("12 for Exrecise No. 323");
+        System.out.println("13 for Exrecise No. 81a");
+        System.out.println("14 for Exrecise No. 81b");
+        System.out.println("15 for Exrecise No. 330");
         System.out.println("16 for Exrecise No. 87");
         System.out.println("17 for Exrecise No. 323(Bondar)");
         System.out.println("18 for Exrecise No. 559");
-	}
+    }
 
 }
 
